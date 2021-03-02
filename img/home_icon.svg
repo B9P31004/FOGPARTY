@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.748698,0,0,0.87262,64.4299,34.9977)">
+        <rect x="127.143" y="149.286" width="241.429" height="207.143" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.79051,0,0,1.45344,-31.9599,-79.0067)">
+        <path d="M157.474,92.726L250,222.92L64.949,222.92L157.474,92.726Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.22748,0,0,1.21975,-70.8455,-26.5059)">
+        <rect x="311.44" y="72.246" width="28.939" height="92.16" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.76685,0,0,2.66613,-130.327,-509.619)">
+        <rect x="200.994" y="292.104" width="28.526" height="28.827"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-84.3314,-10.3186)">
+        <text x="190.331px" y="438.087px" style="font-family:'HGSGothicE', sans-serif;font-size:96px;fill:white;">ホーム</text>
+    </g>
+</svg>
