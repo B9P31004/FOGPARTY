@@ -62,26 +62,3 @@ $(window).resize(function(){
         $("div#box").css('width','80vw');
     }
 });
-/*function ChangeFullScreen(elem){
-	elem = elem[0];
-    $("img#img_part").css('height','100vh');
-	if (elem.requestFullscreen) {
-        elem.requestFullscreen(); 
-    } else if (elem.webkitRequestFullscreen) {
-        elem.webkitRequestFullscreen();
-    } else if (elem.mozRequestFullScreen) {
-        elem.mozRequestFullScreen();
-    } else if (elem.msRequestFullscreen) {
-        elem.msRequestFullscreen(); 
-    }
-};
-function ExitFullScreen(){
-    $("img#img_part").css('height','80vh');
-	if (document.webkitCancelFullScreen) {
-	    document.webkitCancelFullScreen();
-	} else if (document.mozCancelFullScreen) {
-	    document.mozCancelFullScreen();
-	} else {
-	    document.exitFullscreen();
-	}
-};*/

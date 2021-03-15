@@ -82,41 +82,13 @@ $(function(){
                 }
             }
         }
-        /*for(var i=0;i<obj.length;i++){
-            if(obj[i].total==0){
-                $("path#"+obj[i].name).css("fill","rgb(125,226,246)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-            else if(obj[i].total>=1 && obj[i].total<10){
-                $("path#"+obj[i].name).css("fill","rgb(27,247,120)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-            else if(obj[i].total>=10 && obj[i].total<30){
-                $("path#"+obj[i].name).css("fill","rgb(247,235,5)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-            else if(obj[i].total>=30 && obj[i].total<50){
-                $("path#"+obj[i].name).css("fill","rgb(248,173,46)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-            else if(obj[i].total>=50 && obj[i].total<100){
-                $("path#"+obj[i].name).css("fill","rgb(244,87,1)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-            else if(obj[i].total>=100){
-                $("path#"+obj[i].name).css("fill","rgb(253,61,61)");
-                $("path#"+obj[i].name).css("stroke","rgb(0,0,0)");
-            }
-        }console.log(latest_obj);
-        console.log(back_number);
-        console.log(back_number_second);*/
     });
 });
 
 function read(existence,number){
     var read_html="";
     if(existence=="exist"){
-        read_html='<a href="../html/read.html?id='+number+'"><h4 style="padding-top:40px;">読んでみる</h4></a>';
+        read_html='<a href="read.html?id='+number+'"><h4 style="padding-top:40px;">読んでみる</h4></a>';
     }
     return read_html
 }

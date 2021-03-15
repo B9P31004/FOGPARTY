@@ -1,4 +1,3 @@
-/*マウスで上に置いたときに赤色の表示に代わり離すと黒に戻る{*/
 $("a#home_nav_header").hover(function(){
     $("a#home_nav_header").css("color","#FF7100");
 }, function(){
@@ -49,8 +48,6 @@ $("a#nav_blog").hover(function(){
 }, function(){
         $("a#nav_blog h2").css("color","#000000");
 });
-/*}マウスで上に置いたときに赤色の表示に代わり離すと黒に戻る*/
-/*左から出てくるメニュー{*/
 $(function(){
     var html_creation='<a id="nav_brand" class="navbar-brand"><img src="../img/fog_menu.png" width="45" height="45" href="#" class="d-inline-block align-top" alt="fog"></a>';
     $("div#nav_invisible").append(html_creation);
@@ -74,8 +71,6 @@ $(function(){
         dis*=-1;
     });
 });
-/*}左から出てくるメニュー*/
-/*画面の大きさによってアイコンバーの表示と非表示が切り替わる{*/
 $(function(){
     var x = 750;
     var w = $(window).width();
@@ -94,8 +89,6 @@ $(window).resize(function(){
         $("nav#navigator_bottom").hide();
     }
 });
-/*}画面の大きさによってアイコンバーの表示と非表示が切り替わる*/
-/*スクロールしたときにアイコンバーの表示と非表示が切り替わる{*/
 $(function(){
     var nav_position_header=$("header").offset().top;
     var scroll_before=0;
@@ -114,60 +107,3 @@ $(function(){
         scroll_before=scroll_after;
 	});
 });
-/*}スクロールしたときにアイコンバーの表示と非表示が切り替わる*/
-/*ビューワー{*/
-/*}ビューワー*/
-/*ロード画面アニメーション{*/
-if($('div#load').get(0)){
-    $('div#load').load('load.html');
-    $(function(){
-        var x = 750;
-        var w = $(window).width();
-        if(w<=x){
-            $("nav#navigator_bottom").hide();
-        }
-        $('#navigator_top').hide();
-        setTimeout('bar()');
-    });
-}
-var count=0;
-function bar(){
-    $('#bar1').animate({
-        'height':'47.633'
-    },300).delay(1500).animate({
-        'height':'0'
-    },300);
-    $('#bar2').delay(300).animate({
-        'height':'47.633'
-    },300).delay(1500).animate({
-        'height':'0'
-    },300);
-    $('#bar3').delay(600).animate({
-        'height':'47.633'
-    },300).delay(1500).animate({
-        'height':'0'
-    },300);
-    $('#bar4').delay(900).animate({
-        'height':'47.633'
-    },300).delay(1500).animate({
-        'height':'0'
-    },300);
-    $('#bar5').delay(1200).animate({
-        'height':'47.633'
-    },300).delay(1500).animate({
-        'height':'0'
-    },300);
-    count++;
-    if(count==2){
-        clearTimeout(bar);
-        $('div#load').fadeOut();
-        $('#navigator_top').show();
-        var x = 750;
-        var w = $(window).width();
-        if(w<=x){
-            $("nav#navigator_bottom").show();
-        }
-    }
-    var bar=setTimeout('bar()',3500);
-}
-/*}ロード画面アニメーション*/
