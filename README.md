@@ -1,6 +1,6 @@
 # 広告企画制作部　FOGPARTY
 ## 広告企画制作部FOGPARTYのWEBサイト
-<img src="fog_original](https://user-images.githubusercontent.com/55864437/111176041-5339b900-85ec-11eb-9290-6bc332cc579a.png" width="100%" style="background-color:white;">
+<img src="https://user-images.githubusercontent.com/55864437/111176041-5339b900-85ec-11eb-9290-6bc332cc579a.png" width="100%" style="background-color:white;">
 
 ### 広告企画制作部FOG PARTYとは
 ```
