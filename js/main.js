@@ -13,6 +13,11 @@ $("a#poster_nav_header").hover(function(){
 }, function(){
         $("a#poster_nav_header").css("color","#000000");
 });
+$("a#character_nav_header").hover(function(){
+    $("a#character_nav_header").css("color","#FF7100");
+}, function(){
+        $("a#character_nav_header").css("color","#000000");
+});
 $("a#contact_nav_footer").hover(function(){
     $("a#contact_nav_footer").css("color","#FF7100");
 }, function(){
@@ -32,6 +37,11 @@ $("a#poster_nav_footer").hover(function(){
     $("a#poster_nav_footer").css("color","#FF7100");
 }, function(){
         $("a#poster_nav_footer").css("color","#000000");
+});
+$("a#character_nav_footer").hover(function(){
+    $("a#character_nav_footer").css("color","#FF7100");
+}, function(){
+        $("a#character_nav_footer").css("color","#000000");
 });
 $("a#nav_twitter").hover(function(){
     $("a#nav_twitter h2").css("color","#FF7100");
